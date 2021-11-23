@@ -1,0 +1,60 @@
+html,
+body {
+	height: 100%;
+	position: relative;
+    overflow-x: hidden;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.main {
+	flex: 1 0 auto;
+	background-color: $l-grey;
+}
+.footer {
+	flex: 0 0 auto;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: $text;
+    height: 100%;
+}
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.card__item {
+    border-radius: 10px;
+}
+.card__image {
+    img {
+        @include img;
+        @include img-size;
+    }
+}
+.card__content {
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: -10px;
+    position: relative;
+}
+.logo__img {
+    background-color: $purple;
+    padding: 13.95px 28.35px 12.82px 31.62px;
+	width: 190px;
+}
+.title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 127%;
+}
+
+
+
+

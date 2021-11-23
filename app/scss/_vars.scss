@@ -1,0 +1,29 @@
+$text: #000;
+$purple: #A993FF;
+$grey: #828282;
+$l-grey:  #F3F8FF;
+$red: #FF403C;
+$d-blue: #283C63;
+
+
+%title-font400{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+%title-font500{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+@mixin img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin img-size {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
